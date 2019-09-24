@@ -21,5 +21,13 @@ output application/json
 			</ee:message>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="16b207db-d3ab-4754-abb6-55e47f6b413f" message='"Madechanges in the flow 1"'/>
+		<ee:transform doc:name="Transform Message" doc:id="854225a1-e34a-4e5d-908b-40c6eb04876f" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+"Test"]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
 	</flow>
 </mule>
