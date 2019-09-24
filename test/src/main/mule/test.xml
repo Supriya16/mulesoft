@@ -8,9 +8,9 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="5196703a-4d19-46fd-8041-8de7ee662641" >
 		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
-	<flow name="testFlow" doc:id="854630f6-229f-4f72-ab42-e556f373be7b" >
-		<http:listener doc:name="Listener" doc:id="f2a2b3de-0709-453c-8796-d9f9929155be" config-ref="HTTP_Listener_config" path="test"/>
-		<ee:transform doc:name="Transform Message" doc:id="ef8e9b53-d66a-4baf-afdf-79da34db8a04" >
+	<flow name="testFlow" doc:id="3861b623-b7e7-4d55-8377-5146e8316da5" >
+		<http:listener doc:name="Listener" doc:id="cc96509a-d879-4c51-b7da-94cf2fca045d" config-ref="HTTP_Listener_config" path="test"/>
+		<ee:transform doc:name="Transform Message" doc:id="505f692b-767e-4adc-9604-4cbaca24264a" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/json
