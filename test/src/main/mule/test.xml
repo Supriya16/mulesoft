@@ -20,5 +20,6 @@ output application/json
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="cc730dc8-efcc-45ab-a825-f3b412777e7a" />
 	</flow>
 </mule>
