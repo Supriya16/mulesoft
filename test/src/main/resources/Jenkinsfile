@@ -1,7 +1,7 @@
 pipeline{
  agent any
  environment {
-    ANYPOINT = credentials('05593d5f-d633-4705-8116-1fe1654e465f')
+    ANYPOINT = credentials('ANYPOINT')
  }
  stages {
  	stage ('Build'){
