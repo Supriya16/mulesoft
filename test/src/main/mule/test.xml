@@ -21,6 +21,13 @@ output application/json
 			</ee:message>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="16b207db-d3ab-4754-abb6-55e47f6b413f" message='"Madechanges in the flow 1"'/>
-		<logger level="INFO" doc:name="Logger" doc:id="745b173d-ba96-495a-ad96-d9a91fdfcca0" message='"This is the second version of git"'/>
+		<ee:transform doc:name="Transform Message" doc:id="d29cc447-57aa-4f63-b6f1-1f11d0fc5b87" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+"Test"]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
 	</flow>
 </mule>
