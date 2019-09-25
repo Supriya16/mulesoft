@@ -18,5 +18,6 @@ output application/json
 "this is my first git project"]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="57c5c88d-1b64-478d-b547-01c0d7aaa28e" message='"This is a test"'/>
 	</flow>
 </mule>
