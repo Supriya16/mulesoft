@@ -26,15 +26,16 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-						<cloudHubDeployment>
-							<uri>https://anypoint.mulesoft.com</uri>
-							<muleVersion>4.2</muleVersion>
-							<username>praveen</username>
-							<password>Ultimo2860</password>
-							<applicationName>Gitproject</applicationName>
-							<environment>Sandbox</environment>
-						</cloudHubDeployment>
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>4.2.1</muleVersion>
+						<username>praveenD</username>
+						<password>Ultimo2860</password>
+						<applicationName>mygitproject</applicationName>
+						<environment>Sandbox</environment>
+					</cloudHubDeployment>
 				</configuration>
+			
 			</plugin>
 		</plugins>
 	</build>
