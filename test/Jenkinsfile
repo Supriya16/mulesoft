@@ -14,7 +14,7 @@ pipeline{
  	stage ('Deploy'){
  		steps {
  			withMaven(maven:'my_maven'){
- 				bat 'mvn -f test/pom.xml package deploy  -Dusername=praveenD -Dpassword=Ultimo2860 -Denvironment=SANDBOX -DmuleDeploy'
+ 				bat 'mvn -f test/pom.xml package deploy  -Dusername=praveenD -Dpassword=Ultimo2860 -Denvironment=Sandbox -DmuleDeploy'
  			}
  		}
  	}
