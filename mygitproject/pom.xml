@@ -26,28 +26,14 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				<plugin>
-				<plugin>
-  <groupId>org.mule.tools.maven</groupId>
-  <artifactId>mule-maven-plugin</artifactId>
-  <version>3.3.2</version>
-  <extensions>true</extensions>
-</plugin>
-				<groupId>org.mule.tools.maven</groupId>
-				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
-				<extensions>true</extensions>
-				<configuration>
-					<cloudHubDeployment>
-						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.2</muleVersion>
-						<username>praveen</username>
-						<password>Ultimo2860</password>
-						<applicationName>Gitproject</applicationName>
-						<environment>Sandbox</environment>
-					</cloudHubDeployment>
-				</configuration>
-			</plugin>
+						<cloudHubDeployment>
+							<uri>https://anypoint.mulesoft.com</uri>
+							<muleVersion>4.2</muleVersion>
+							<username>praveen</username>
+							<password>Ultimo2860</password>
+							<applicationName>Gitproject</applicationName>
+							<environment>Sandbox</environment>
+						</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
