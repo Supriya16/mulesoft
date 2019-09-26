@@ -20,9 +20,7 @@
 
 	<build>
 		<plugins>
-			
-	
-	<plugin>
+			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
@@ -37,9 +35,11 @@
 						<environment>Sandbox</environment>
 					</cloudHubDeployment>
 				</configuration>
+			
 			</plugin>
 		</plugins>
 	</build>
+
 
 	<dependencies>
         <dependency>
