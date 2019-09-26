@@ -31,7 +31,7 @@
 						<muleVersion>4.2.1</muleVersion>
 						<username>praveenD</username>
 						<password>Ultimo2860</password>
-						<applicationName>test</applicationName>
+						<applicationName>testingmyapp</applicationName>
 						<environment>Sandbox</environment>
 					</cloudHubDeployment>
 				</configuration>
