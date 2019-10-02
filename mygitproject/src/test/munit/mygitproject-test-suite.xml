@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:munit="http://www.mulesoft.org/schema/mule/munit" xmlns:munit-tools="http://www.mulesoft.org/schema/mule/munit-tools"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xsi:schemaLocation="
+		http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+		http://www.mulesoft.org/schema/mule/munit http://www.mulesoft.org/schema/mule/munit/current/mule-munit.xsd
+		http://www.mulesoft.org/schema/mule/munit-tools  http://www.mulesoft.org/schema/mule/munit-tools/current/mule-munit-tools.xsd">
+	<munit:config name="mygitproject-test-suite.xml" />
+	<munit:test name="mygitproject-test-suite-mygitprojectFlowTest" doc:id="1ff71d9b-ddc2-4c3b-aad9-15f5871a3081" description="Test">
+		<munit:execution >
+			<flow-ref doc:name="Flow-ref to mygitprojectFlow" doc:id="c46b795a-70b1-457f-9fab-0b146250d3a3" name="mygitprojectFlow"/>
+		</munit:execution>
+	</munit:test>
+
+
+</mule>

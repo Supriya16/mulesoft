@@ -20,6 +20,6 @@ output application/json
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
-		<logger level="INFO" doc:name="Logger" doc:id="579fa6fc-3a57-496c-ad62-64a413a741f1" message='"This is a test"'/>
+		<logger level="INFO" doc:name="Logger" doc:id="579fa6fc-3a57-496c-ad62-64a413a741f1" message='"This is a test for sample jenkins test"'/>
 	</flow>
 </mule>
