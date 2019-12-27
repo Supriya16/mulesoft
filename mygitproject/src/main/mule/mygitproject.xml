@@ -16,10 +16,18 @@ http://www.mulesoft.org/schema/mule/java http://www.mulesoft.org/schema/mule/jav
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/json
 ---
-"this is my first git project testing"]]></ee:set-payload>
+"this is my first git project testing hahaha"]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="ad0d410a-ea7b-4b36-b998-af01c9342e47" message='"This is a test for jenkins"'/>
 		<logger level="INFO" doc:name="Logger" doc:id="5a54834f-c387-46b5-b5f6-b62a6a4285db" message='"Added another logger"'/>
+		<ee:transform doc:name="Transform Message" doc:id="513e9103-91f3-4b69-b579-3d6c82d3de73" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+"test"]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
 	</flow>
 </mule>
